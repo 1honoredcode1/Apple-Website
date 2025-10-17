@@ -13,7 +13,7 @@ import { useGLTF, useTexture } from "@react-three/drei";
 import useMacbookStore from "../../store";
 
 import { Color, SRGBColorSpace } from "three";
-import { noChangeParts } from "../../contants/index.js";
+import { noChangeParts } from "../../constants/index.js";
 
 export default function MacbookModel14(props) {
   const { color } = useMacbookStore();

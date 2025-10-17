@@ -11,8 +11,9 @@ Title: macbook pro M3 16 inch 2024
 import React, { useEffect } from "react";
 import { useGLTF, useVideoTexture } from "@react-three/drei";
 import useMacbookStore from "../../store/index.js";
-import { noChangeParts } from "../../constants/index.js";
+
 import { Color } from "three";
+import { noChangeParts } from "../../constants/index.js";
 
 export default function MacbookModel(props) {
   const { color, texture } = useMacbookStore();
